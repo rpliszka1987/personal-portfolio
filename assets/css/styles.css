@@ -1,6 +1,7 @@
 :root {
     --primary-color: #32343C;
     --secondary-color: #90BEC5;
+    --tertiary-color: #485773;
 }
 
 * {
@@ -84,4 +85,84 @@ header nav ul li a {
     border-radius: 50%;
     border: 3px solid var(--secondary-color);
 }
+
+/* End of hero styles */
+
+/* Main Section Styles */
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;  
+    margin: 20px auto;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+}
+
+.about-me-header {
+    flex: 1 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-me-header h3 {
+    font-size: 45px;
+    padding-right: 20px;
+    color: var(--tertiary-color);
+    text-align: right;
+}
+
+.about-me-text p {
+    color: var(--tertiary-color);
+}
+
+.about-me-text {
+    flex: 2 70%;
+    padding: 10px 40px;
+}
+
+.my-work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.my-work-header {
+    flex: 1 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.work-links {
+    flex: 2 70%;
+}
+
+.border-right {
+    border-right: 3px solid var(--tertiary-color);
+}
+
+.work-links img {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.my-work-header h3 {
+    font-size: 45px;
+    padding-right: 20px;
+    color: var(--tertiary-color);
+    text-align: right;
+    padding-top: 45px;
+}
+
+
+
 
