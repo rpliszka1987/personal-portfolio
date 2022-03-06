@@ -163,6 +163,53 @@ header nav ul li a {
     padding-top: 45px;
 }
 
+/* Footer styels */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    flex: 2 70%;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer nav ul li {
+    color: var(--tertiary-color);
+    font-size: 30px;
+    padding: 0 50px;
+    margin: 0 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+footer h3 {
+    flex: 1 12%;
+    font-size: 45px;
+    padding-right: 20px;
+    color: var(--tertiary-color);
+    text-align: right;
+    padding:45px 20px 45px 0;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--tertiary-color);
+}
+
 
 
 
