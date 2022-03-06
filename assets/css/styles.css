@@ -64,3 +64,24 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* End of Header Styles */
+
+/* Hero styles */
+.hero-img {
+    background: url(../images/hero-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.hero-my-img {
+    margin: 40px 60px 40px 0;
+}
+
+.hero-my-img img {
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+}
+
