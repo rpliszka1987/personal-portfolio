@@ -106,6 +106,7 @@ header nav ul li a {
     
 }
 
+
 .about-me-header {
     flex: 1 12%;
     display: flex;
@@ -152,22 +153,43 @@ header nav ul li a {
 
 .run-buddy {
     position: relative;
+    flex: 1 50%;
 }
 
 .run-buddy h4 {
     position: absolute;
     top: 70px;
     left: 50px;
-    font-size: 35px;
+    font-size: 1.55vw;
     padding: 10px;
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
 }
 
+
+
+/* .rum-buddy img:hover {
+    width: 75%;
+}  */
+
+
+.work-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
 .run-buddy img {
-    width: 30%;
+    width: 50%;
     margin-left: 50px;
 }
+
+.bigger-img img {
+    width: 60%;
+}
+
 
 .my-work-header h3 {
     font-size: 45px;
@@ -225,6 +247,7 @@ footer h3 {
 }
 
 @media screen and (max-width: 980px){
+
 
 }
 
