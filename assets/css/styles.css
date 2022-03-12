@@ -167,12 +167,6 @@ header nav ul li a {
 }
 
 
-
-/* .rum-buddy img:hover {
-    width: 75%;
-}  */
-
-
 .work-links {
     display: flex;
     justify-content: space-between;
@@ -252,11 +246,68 @@ footer h3 {
 }
 
 @media screen and (max-width: 768px) {
-
+   
 }
 
 @media screen and (max-width: 575px) {
+    .about-me-header {
+        justify-content: center;
+    }
 
+   .about-me-header h3 {
+       text-align: center;
+       padding-bottom: 10px;;
+   }
+
+   .my-work-header {
+       justify-content: center;
+       padding-bottom: 20px;
+   }
+
+    .run-buddy {
+        flex: 1 100%;
+        margin-bottom: 20px;
+    }
+
+    footer h3 {
+        text-align: center;
+    }
+
+    footer nav ul {
+        justify-content: center;
+        
+    }
+
+    .border-bottom {
+        border-bottom: none;
+    }
+
+    footer nav ul li {
+        padding: 5px 50px;
+        font-size: 20px;
+    }
+
+    header {
+        justify-content: center;
+        padding: 5px 20px;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px 80px;
+        margin-left: 0;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li a {
+        font-size: 5vw;
+    }
+
+    
 }
 
 
