@@ -158,7 +158,7 @@ header nav ul li a {
 
 .run-buddy h4 {
     position: absolute;
-    top: 70px;
+    top: 55%;
     left: 50px;
     font-size: 1.55vw;
     padding: 10px;
@@ -305,6 +305,10 @@ footer h3 {
 
     header nav ul li a {
         font-size: 5vw;
+    }
+
+    .border-right {
+        border-right: none;
     }
 
     
